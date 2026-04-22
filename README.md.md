@@ -377,8 +377,8 @@ Veja a documentação completa em:
 ## 📞 Contato & Suporte
 
 Se tiver dúvidas ou sugestões:
-- Abra uma [Issue](https://github.com/seu-usuario/sistema-oficina-mecanica/issues)
-- Faça um [Pull Request](https://github.com/seu-usuario/sistema-oficina-mecanica/pulls)
+- Abra uma [Issue](https://github.com/guhsilva266/sistema-oficina-mecanica/issues)
+- Faça um [Pull Request](https://github.com/guhsilva266/sistema-oficina-mecanica/pulls)
 
 ---
 
