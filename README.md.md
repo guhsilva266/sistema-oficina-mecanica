@@ -226,7 +226,7 @@ O diagrama entidade-relacionamento completo está disponível em `DIAGRAMA_ER.pn
 ### 4. Dados de Contato do Mecânico
 - Campos `telefone` e `email` em MECANICO
 - Comunicação direta com equipe
-- Contato de emergência
+- Contato de emergência 
 
 ### 5. Nome Descritivo para Estoque
 - Campo `quantidade_estoque` em PECA
