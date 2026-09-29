@@ -12,21 +12,6 @@ O modelo conceitual foi feito no MySQL Workbench e está em [`oficina.mwb`](ofic
 
 ![Diagrama ER](DIAGRAMA_ER.png)
 
-## 🧱 Esquema lógico
-
-```mermaid
-erDiagram
-    CLIENTE ||--o{ VEICULO : possui
-    VEICULO ||--o{ ORDEM_SERVICO : recebe
-    EQUIPE ||--o{ ORDEM_SERVICO : atende
-    ORDEM_SERVICO ||--o{ SERVICO : contem
-    TABELA_MAO_OBRA ||--o{ SERVICO : "precifica"
-    SERVICO ||--o{ SERVICO_PECA : usa
-    PECA ||--o{ SERVICO_PECA : "é usada em"
-    EQUIPE ||--o{ EQUIPE_MECANICO : reune
-    MECANICO ||--o{ EQUIPE_MECANICO : "participa de"
-```
-
 ### Tabelas e atributos
 
 | Tabela | Atributos (PK em **negrito**, FK com →) |
